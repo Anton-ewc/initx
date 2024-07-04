@@ -1,3 +1,3 @@
 #!/bin/bash
-PROC=$(nproc --all)
+PROC="$(nproc --all)"
 echo $PROC
